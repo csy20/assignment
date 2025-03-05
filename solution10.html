@@ -5,15 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solution 10</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .elevated-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+        }
+        .elevated-btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Solution 10: Uniform Resource Locator</h1>
-    <p>A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL has the following syntax:</p>
-    <pre>
+    <div class="container">
+        <h1>Solution 10: Uniform Resource Locator</h1>
+        <div class="card">
+            <p>A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL has the following syntax:</p>
+            <pre>
 <code>
 scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
 </code>
-    </pre>
-    <button class="elevated-btn" onclick="location.href='index.html'">Back to Assignment</button>
+            </pre>
+            <button class="elevated-btn" onclick="location.href='index.html'">Back to Assignment</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Solution 10. All rights reserved.
+    </footer>
 </body>
 </html>
