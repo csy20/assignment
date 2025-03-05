@@ -5,18 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solution 1</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .elevated-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+        }
+        .elevated-btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Solution 1: Write feature of JavaScript?</h1>
-    <p>JavaScript is a versatile programming language that allows you to implement complex features on web pages. Some of its key features include:</p>
-    <ul>
-        <li>Interactivity: JavaScript enables the creation of interactive web pages.</li>
-        <li>Client-Side Validation: JavaScript can validate user input before sending it to the server.</li>
-        <li>Manipulating HTML and CSS: JavaScript can dynamically update HTML and CSS to change the content and style of a web page.</li>
-        <li>Event Handling: JavaScript can respond to user actions such as clicks, form submissions, and mouse movements.</li>
-        <li>Browser Compatibility: JavaScript works on all major web browsers.</li>
-        <li>Asynchronous Programming: JavaScript supports asynchronous operations using callbacks, promises, and async/await.</li>
-    </ul>
-    <button class="elevated-btn" onclick="location.href='index.html'">Back to Assignment</button>
+    <div class="container">
+        <h1>Solution 1: Write feature of JavaScript?</h1>
+        <div class="card">
+            <p>JavaScript is a versatile programming language that allows you to implement complex features on web pages. Some of its key features include:</p>
+            <ul>
+                <li>Interactivity: JavaScript enables the creation of interactive web pages.</li>
+                <li>Client-Side Validation: JavaScript can validate user input before sending it to the server.</li>
+                <li>Manipulating HTML and CSS: JavaScript can dynamically update HTML and CSS to change the content and style of a web page.</li>
+                <li>Event Handling: JavaScript can respond to user actions such as clicks, form submissions, and mouse movements.</li>
+                <li>Browser Compatibility: JavaScript works on all major web browsers.</li>
+                <li>Asynchronous Programming: JavaScript supports asynchronous operations using callbacks, promises, and async/await.</li>
+            </ul>
+            <button class="elevated-btn" onclick="location.href='index.html'">Back to Assignment</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Assignment. All rights reserved.
+    </footer>
 </body>
 </html>
